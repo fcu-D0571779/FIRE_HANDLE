@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>register</title>
+    </head>
+    <body>
+        <h1>使用者註冊</h1>
+        <form action="index.html" method="post">
+            <p><label>帳號
+                <input type="text" name="account" placeholder="請輸入您的帳號">
+            </label></p>
+
+            <p><label>密碼
+                <input type="text" name="passcode">
+            </label></p>
+
+            <p><label>電子郵件
+                <input type="email" name="email_address" placeholder="請輸入您的郵件">
+            </label></p>
+
+            <p><label>生日
+                <input type="date" name="date">
+            </label></p>
+
+            <p><strong>性別</strong>
+                <label>男
+                    <input type="radio" name="性別" value="male">
+                </label>
+                <label>女
+                    <input type="radio" name="性別" value="female">
+                </label>
+                <label>其他
+                    <input type="radio" name="性別" value="other">
+                </label>
+            </p>
+
+            <p><strong>喜好</strong>
+                <label>打球
+                    <input type="checkbox" name="喜好" value="ball">
+                </label>
+                <label>打電動
+                    <input type="checkbox" name="喜好" value="game">
+                </label>
+                <label>購物
+                    <input type="checkbox" name="喜好" value="shopping">
+                </label>
+                <label>其他
+                    <input type="checkbox" name="喜好" value="else">
+                </label>
+            </p>
+
+            <p><label>年級
+                <select name="grade">
+                    <option selected>大一</option>
+                    <option>大二</option>
+                    <option>大三</option>
+                    <option>大四</option>
+                    <option>其他</option>
+                </select>
+            </label></p>
+
+            <p>
+                <input type="submit" name="submit" value="送出">
+                <input type="reset" name="reset" value="重設">
+            </p>
+        </form>
+    </body>
+</html>
